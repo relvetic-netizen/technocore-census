@@ -3,9 +3,16 @@
  "days": [
   {
    "date": "2026-08-28",
-   "samples": 173,
-   "degraded_samples": 3,
-   "distinct_signed_dids": 58411,
+   "samples": 208,
+   "degraded_samples": 8,
+   "distinct_signed_dids": 74605,
+   "finalized": true
+  },
+  {
+   "date": "2026-08-29",
+   "samples": 3,
+   "degraded_samples": 1,
+   "distinct_signed_dids": 2940,
    "finalized": false
   }
  ]
