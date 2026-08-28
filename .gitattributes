@@ -1,0 +1,3 @@
+# Published bytes are exactly the bytes written. No line-ending conversion, ever.
+* -text
+*.gz binary
