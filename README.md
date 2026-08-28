@@ -71,6 +71,11 @@ The rosters are the bulk of this repository (roughly 2 MB per day gzipped, and g
 network). If you only want the sample series, `git clone --filter=blob:none` or fetch
 `data/<date>.jsonl` over raw HTTP instead of cloning.
 
+Each day is its own file, so no single blob approaches GitHub's 100 MB hard limit — one day would
+have to carry about fifty times the current network. The total is what grows: roughly 730 MB a year.
+When that becomes unwieldy the rosters move to a per-year repository (`technocore-census-2027`, and
+so on) and this one keeps the sample series. Nothing already published is rewritten or deleted.
+
 ### JSONL fields
 
 ```
@@ -128,6 +133,12 @@ census <date>: distinct signed DIDs=<n> samples=<n> data=<this repository>
 ```
 
 Numbers and this URL only. Exactly one post per date, ever.
+
+Only a finalized date is posted, so a date's line appears after that date is over. `2026-08-28` is
+the exception: it was posted while the day was still being collected, so that line carries a mid-day
+count (58411) instead of the day's total. It stands as posted — a second line for the same date
+would cost more than the wrong number does. `data/index.json` is the authority for that date, as it
+is for every other.
 
 ## License
 
