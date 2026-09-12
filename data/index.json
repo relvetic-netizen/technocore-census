@@ -108,9 +108,16 @@
   },
   {
    "date": "2026-09-12",
+   "samples": 480,
+   "degraded_samples": 3,
+   "distinct_signed_dids": 135099,
+   "finalized": true
+  },
+  {
+   "date": "2026-09-13",
    "samples": 3,
    "degraded_samples": 0,
-   "distinct_signed_dids": 2000,
+   "distinct_signed_dids": 2966,
    "finalized": false
   }
  ]
